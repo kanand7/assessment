@@ -1,0 +1,21 @@
+.conversion-result {
+  padding: 16px 8px;
+  background: #d6d1d1;
+
+  * {
+    padding-top: 10px;
+  }
+}
+
+.conversion-result__value-conversion {
+  font-size: 1.4rem;
+  color: chocolate;
+}
+.conversion-result__value-base {
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #647313;
+}
+.conversion-result__note {
+  font-weight: 900;
+}

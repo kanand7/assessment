@@ -1,0 +1,32 @@
+.section {
+  border-radius: 0.586rem;
+  box-shadow: 0 0 0.143rem 0 rgb( 255, 0, 0);
+  position: relative;
+  background-color: white;
+  width: 100%;
+  padding: 8px 16px;
+
+  .section__header {
+    display: flex;
+    padding: 8px 0px;
+
+    header {
+      flex: 1;
+      font: 600 1.143rem/1.25 Arial;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+
+      display: flex;
+      min-height: 2.857rem;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      color: rgba(18,24,33,0.6);
+      overflow: hidden;
+    }
+  }
+
+  .section__body {
+    padding: 8px 0px;
+  }
+}

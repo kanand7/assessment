@@ -1,0 +1,32 @@
+//Common styles
+
+@import "common/layout";
+@import "common/section";
+@import "common/form";
+@import "common/calendar";
+@import "common/button";
+
+//Components
+@import "components/conversionResults";
+@import "components/history";
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+input[type='text'] , input[type='number']{
+  padding: 0.571rem 0.857rem;
+  color: #121821de;
+  border: 1px solid black;
+  margin: 0;
+  min-width: 0;
+  font-size: 1.143rem;
+}

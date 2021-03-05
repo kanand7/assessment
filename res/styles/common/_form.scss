@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+}
+
+.form__field {
+  padding-right: 10px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form__error-text {
+  background-color: indianred;
+  color: white;
+}
